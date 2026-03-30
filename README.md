@@ -241,9 +241,13 @@ loan-default-analysis
 
 # 🎯 Project Objective
 
-To apply statistical and probability techniques on loan dataset and
+To apply statistical and probability techniques to the loan dataset and
 Analyse customer loan default behaviour.
 
 ------------------------------------------------------------------------
+-<img width="640" height="480" alt="Histogram_Credit_Score" src="https://github.com/user-attachments/assets/4911cbaa-cbb1-4c9b-b8f2-b8d8f993f70f" />
+
+
+-<img width="640" height="480" alt="QQ_Plot_Income" src="https://github.com/user-attachments/assets/fac71a14-54cd-475c-80c0-ac325ec0d916" />
 
 
