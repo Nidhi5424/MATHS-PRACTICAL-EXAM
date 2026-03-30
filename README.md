@@ -5,9 +5,9 @@
 This project performs statistical and probability analysis on a loan
 application dataset using Python.
 
-The objective of this project is to analyze customer financial data and
-understand loan default behavior using statistical techniques,
-probability calculations, visualization, and linear algebra operations.
+The objective of this project is to analyse customer financial data and
+understand loan default behaviour using statistical techniques,
+probability calculations, visualisation, and linear algebra operations.
 
 The project consists of:
 
@@ -24,12 +24,12 @@ Dataset file used:
 
 ## Columns in Dataset:
 
--   Customer_ID --- Unique customer ID\
--   Age --- Customer age\
--   Income --- Monthly income\
--   Loan_Amount --- Loan amount taken\
--   Credit_Score --- Credit score value\
--   Loan_Term --- Loan duration\
+-   Customer_ID --- Unique customer ID
+-   Age --- Customer age
+-   Income --- Monthly income
+-   Loan_Amount --- Loan amount taken
+-   Credit_Score --- Credit score value
+-   Loan_Term --- Loan duration
 -   Default_Status --- Loan default status (Yes/No)
 
 ------------------------------------------------------------------------
@@ -38,20 +38,20 @@ Dataset file used:
 
 The following statistical concepts are explained:
 
-1.  Mean, Median and Mode\
-2.  Variance and Standard Deviation\
-3.  Random Variable\
-4.  Conditional Probability\
-5.  Bayes Theorem\
-6.  Empirical vs Theoretical Probability\
-7.  Poisson Distribution\
+1.  Mean, Median and Mode
+2.  Variance and Standard Deviation
+3.  Random Variable
+4.  Conditional Probability
+5.  Bayes Theorem
+6.  Empirical vs Theoretical Probability
+7.  Poisson Distribution
 8.  Eigenvalues and Eigenvectors
 
 Each topic includes:
 
--   Definition\
--   Formula\
--   Example\
+-   Definition
+-   Formula
+-   Example
 -   Application
 
 ------------------------------------------------------------------------
@@ -62,13 +62,13 @@ Each topic includes:
 
 Libraries used:
 
--   pandas\
--   numpy\
--   matplotlib\
--   seaborn\
+-   pandas
+-   numpy
+-   matplotlib
+-   seaborn
 -   scipy
 
-These libraries are used for data handling, calculations, visualization
+These libraries are used for data handling, calculations, and visualisation
 and statistical analysis.
 
 ------------------------------------------------------------------------
@@ -79,7 +79,7 @@ Dataset is loaded using:
 
 `pd.read_csv()`
 
-First five records are displayed using:
+The first five records are displayed using:
 
 `df.head()`
 
@@ -89,13 +89,13 @@ First five records are displayed using:
 
 Calculated:
 
--   Mean\
--   Median\
+-   Mean
+-   Median
 -   Mode
 
 Purpose:
 
-To find typical income value of customers.
+To find the typical income value of customers.
 
 ------------------------------------------------------------------------
 
@@ -103,8 +103,8 @@ To find typical income value of customers.
 
 Calculated:
 
--   Range\
--   Variance\
+-   Range
+-   Variance
 -   Standard Deviation
 
 Purpose:
@@ -121,13 +121,13 @@ Probability of loan default.
 
 Purpose:
 
-To determine proportion of customers who defaulted.
+To determine the proportion of customers who defaulted.
 
 ------------------------------------------------------------------------
 
 ## Step 6 --- Contingency Table
 
-Created comparison between:
+Created a comparison between:
 
 -   Default Status\
 -   Credit Score Categories
@@ -154,12 +154,12 @@ To identify high-risk customers.
 
 Generated:
 
--   Histogram\
+-   Histogram
 -   KDE Curve
 
 Purpose:
 
-To visualize distribution of credit scores.
+To visualise the distribution of credit scores.
 
 ------------------------------------------------------------------------
 
@@ -167,18 +167,18 @@ To visualize distribution of credit scores.
 
 Calculated:
 
--   Skewness\
+-   Skewness
 -   Kurtosis
 
 Purpose:
 
-To understand distribution shape.
+To understand the distribution shape.
 
 ------------------------------------------------------------------------
 
 ## Step 10 --- Q-Q Plot
 
-Generated Q-Q plot to check normal distribution.
+Generated a Q-Q plot to check the normal distribution.
 
 ------------------------------------------------------------------------
 
@@ -186,8 +186,8 @@ Generated Q-Q plot to check normal distribution.
 
 Performed:
 
--   Dot Product\
--   Vector Norm\
+-   Dot Product
+-   Vector Norm
 -   Angle Calculation
 
 Purpose:
@@ -200,31 +200,31 @@ To measure similarity between customer vectors.
 
 1.  Customers with low credit scores show higher default probability.
 2.  Loan amount distribution shows variation across customers.
-3.  Credit score distribution follows near-normal pattern.
-4.  Higher income customers generally take higher loan amounts.
-5.  Default risk increases when credit score decreases.
+3.  Credit score distribution follows a near-normal pattern.
+4.  Higher-income customers generally take higher loan amounts.
+5.  Default risk increases when the credit score decreases.
 
 ------------------------------------------------------------------------
 
 # 🛠 Tools Used
 
--   Python\
--   Jupyter Notebook\
--   Pandas\
--   NumPy\
--   Matplotlib\
--   Seaborn\
+-   Python
+-   Jupyter Notebook
+-   Pandas
+-   NumPy
+-   Matplotlib
+-   Seaborn
 -   SciPy
 
 ------------------------------------------------------------------------
 
 # 📂 Project Structure
 
-loan-default-analysis/
+loan-default-analysis
 
-├── Part_A_Detailed_Final.pdf\
-├── Part_B_Final_Explained.ipynb\
-├── loan_applications.csv\
+├── Part_A_Detailed_Final.pdf
+├── Part_B_Final_Explained.ipynb
+├── loan_applications.csv
 ├── README.md
 
 ------------------------------------------------------------------------
@@ -242,11 +242,8 @@ loan-default-analysis/
 # 🎯 Project Objective
 
 To apply statistical and probability techniques on loan dataset and
-analyze customer loan default behavior.
+Analyse customer loan default behaviour.
 
 ------------------------------------------------------------------------
 
-# 👨‍🎓 Author
 
-Student Project\
-Mathematics & Advanced Statistics
